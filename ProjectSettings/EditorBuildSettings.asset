@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/GameJam/Scenes/MainScene.unity
     guid: e8dfb16330a8c9c4e9bef2f1dff01fb8
   - enabled: 1
-    path: Assets/GameJam/Scenes/LightingScene.unity
-    guid: 52d4f8177c93545e48896630c33c6826
-  - enabled: 1
     path: Assets/GameJam/Scenes/UIScene.unity
     guid: ef3610da34e7ed14aa69928987fbdf04
   m_configObjects: {}
