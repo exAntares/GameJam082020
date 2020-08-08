@@ -103,22 +103,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3844712641044446905}
     m_Modifications:
-    - target: {fileID: 5182464674767555148, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.x
-      value: -0.000044941902
-      objectReference: {fileID: 0}
-    - target: {fileID: 5182464674767555148, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.y
-      value: -0.00000011920929
-      objectReference: {fileID: 0}
-    - target: {fileID: 5182464674767555148, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.x
-      value: 0.90493494
-      objectReference: {fileID: 0}
-    - target: {fileID: 5182464674767555148, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.y
-      value: 1.0550001
-      objectReference: {fileID: 0}
     - target: {fileID: 6921194527712392340, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -163,53 +147,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7378795330747074807, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.x
-      value: -0.00042518973
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378795330747074807, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.y
-      value: 0.00000029802322
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378795330747074807, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.x
-      value: 0.3589049
-      objectReference: {fileID: 0}
-    - target: {fileID: 7378795330747074807, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.y
-      value: 0.33499992
-      objectReference: {fileID: 0}
-    - target: {fileID: 8184568319145980617, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.x
-      value: 0.55787504
-      objectReference: {fileID: 0}
     - target: {fileID: 8713270337567255797, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
       propertyPath: m_Name
       value: berti_ghost_base_prefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 8750090652158684952, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.x
-      value: -0.0014699996
-      objectReference: {fileID: 0}
-    - target: {fileID: 8750090652158684952, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.y
-      value: -0.00000017881393
-      objectReference: {fileID: 0}
-    - target: {fileID: 8750090652158684952, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.x
-      value: 0.25848004
-      objectReference: {fileID: 0}
-    - target: {fileID: 8750090652158684952, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.y
-      value: 0.5149996
-      objectReference: {fileID: 0}
-    - target: {fileID: 8780833828798031660, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Center.x
-      value: 0.0012099147
-      objectReference: {fileID: 0}
-    - target: {fileID: 8789617295283482449, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
-      propertyPath: m_Bounds.m_Extent.x
-      value: 0.56000006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35d5aec0c48be5a499438815b67088d9, type: 3}
