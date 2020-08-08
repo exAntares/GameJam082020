@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour {
                 var moveDiffX = Input.mousePosition.x - _lastKnownPos.Value.x;
                 var moveDiffY = Input.mousePosition.y - _lastKnownPos.Value.y;
                 var speed = _speed * Time.fixedDeltaTime;
-                var addPos = new Vector3(moveDiffX * speed, 0, moveDiffY * speed);
+                var addPos = new Vector3(-moveDiffX * speed, 0, -moveDiffY * speed);
                 transform.position += addPos;
             }
         }
