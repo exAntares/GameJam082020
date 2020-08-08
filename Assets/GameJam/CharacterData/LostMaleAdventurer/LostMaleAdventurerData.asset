@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: LostMaleAdventurerData
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 3462c6e027a8840b996b123769dfcba2, type: 3}
-  OnSuccess: {fileID: 11400000, guid: 02576ce78fdb041ef90e3d51214ac4e5, type: 2}
-  OnFail: {fileID: 11400000, guid: 9bf56eea5e7c6466fad0b42f54900f28, type: 2}
+  OnSuccess: {fileID: 11400000, guid: 246a72ee435a2423bb0323a0a62048a9, type: 2}
+  OnFail: {fileID: 11400000, guid: 715725e03097740ceb3862153c1f5363, type: 2}

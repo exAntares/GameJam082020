@@ -121,10 +121,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4764085740008351427}
   - component: {fileID: 203661994721764242}
-  - component: {fileID: 2722603770878838678}
   - component: {fileID: 3133187870834355950}
   - component: {fileID: 3113030164025298599}
-  - component: {fileID: 7196104637352301209}
+  - component: {fileID: 9056500093321873031}
   m_Layer: 0
   m_Name: CharacterGhost_Prefab_Base
   m_TagString: Untagged
@@ -161,19 +160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameController: {fileID: 11400000, guid: c66b611b5c0474e81946cdc5b2319a20, type: 2}
   MyData: {fileID: 11400000, guid: 33968f716a56e498d9724483d8f27ead, type: 2}
---- !u!114 &2722603770878838678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6028889355359388288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0e084aaab2b04599bf11c1b05aa8227, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data: {fileID: 11400000, guid: 33968f716a56e498d9724483d8f27ead, type: 2}
 --- !u!65 &3133187870834355950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -202,7 +188,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &7196104637352301209
+--- !u!114 &9056500093321873031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,12 +197,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6028889355359388288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e8d28272fea8944da8ce408edb68d1a9, type: 2}
 --- !u!1001 &9055529770401288320
 PrefabInstance:
   m_ObjectHideFlags: 0

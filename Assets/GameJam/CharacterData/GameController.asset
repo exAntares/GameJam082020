@@ -17,3 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 33968f716a56e498d9724483d8f27ead, type: 2}
   - {fileID: 11400000, guid: c1364bb763f904786909ab6becf44755, type: 2}
   - {fileID: 11400000, guid: 499deafc96fcc402d822efee8d31f529, type: 2}
+  OnGameWin: {fileID: 11400000, guid: fc7950d3e5e0442718e65aa88241952c, type: 2}

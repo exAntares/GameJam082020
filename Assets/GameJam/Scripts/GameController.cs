@@ -1,9 +1,11 @@
 using System.Collections.Generic;
+using HalfBlind.ScriptableVariables;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = nameof(GameController), menuName = "ScriptableObjects/GameJam/"+nameof(GameController))]
 public class GameController : ScriptableObject {
     [SerializeField] private GameCharacterData[] Characters;
+    [SerializeField] private ScriptableGameEvent OnGameWin;
     private List<GameCharacterData> _result;
 
     public void StartGame() {
@@ -37,6 +39,11 @@ public class GameController : ScriptableObject {
         else {
             Debug.Log($"{myData.name} wrong selected");
             myData.OnFail.SendEvent();
+        }
+
+        if (_result.Count == 0) {
+            Debug.Log("YOU WON!!!");
+            OnGameWin.SendEvent();
         }
     }
 }
