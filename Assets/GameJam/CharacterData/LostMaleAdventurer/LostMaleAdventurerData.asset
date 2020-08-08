@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b90d443a2137645c6af4fb9eb7a0964e, type: 3}
-  m_Name: GhostData
+  m_Name: LostMaleAdventurerData
   m_EditorClassIdentifier: 
-  Icon: {fileID: 2136944348519461093, guid: 38fb1ce2c0c585f46acc8dcce78c5e9b, type: 3}
-  OnSuccess: {fileID: 11400000, guid: bed81d92d4538468b9ef86400fe05248, type: 2}
-  OnFail: {fileID: 11400000, guid: 33dbe390acf5c4289a26418d7830ee6e, type: 2}
+  Icon: {fileID: 21300000, guid: 3462c6e027a8840b996b123769dfcba2, type: 3}
+  OnSuccess: {fileID: 11400000, guid: 02576ce78fdb041ef90e3d51214ac4e5, type: 2}
+  OnFail: {fileID: 11400000, guid: 9bf56eea5e7c6466fad0b42f54900f28, type: 2}
