@@ -46,6 +46,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 1
   _camera: {fileID: 0}
+  _bounds:
+    serializedVersion: 2
+    x: -43
+    y: -70
+    width: 125
+    height: 93
+  _xMinMax: {x: -43, y: 125}
+  _zMinMax: {x: -70, y: 93}
 --- !u!1 &7174907421400587319
 GameObject:
   m_ObjectHideFlags: 0
