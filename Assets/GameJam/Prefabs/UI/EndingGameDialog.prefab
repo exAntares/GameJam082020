@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2653784902484323575
 RectTransform:
   m_ObjectHideFlags: 0
@@ -361,7 +361,6 @@ GameObject:
   - component: {fileID: 7276607705924947216}
   - component: {fileID: 7276607705924947217}
   - component: {fileID: 7276607705924947218}
-  - component: {fileID: 7276607705924947223}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -470,27 +469,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!223 &7276607705924947223
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7276607705924947228}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 1
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 2
-  m_TargetDisplay: 0
 --- !u!1 &7276607706438971688
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +481,9 @@ GameObject:
   - component: {fileID: 7276607706438971693}
   - component: {fileID: 7276607706438971694}
   - component: {fileID: 7276607706438971695}
+  - component: {fileID: 1390494286}
+  - component: {fileID: 1390494287}
+  - component: {fileID: 1390494292}
   m_Layer: 5
   m_Name: EndingGameDialog
   m_TagString: Untagged
@@ -539,9 +520,9 @@ Canvas:
   m_GameObject: {fileID: 7276607706438971688}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_PlaneDistance: -1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -590,6 +571,52 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1390494286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7276607706438971688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c2909cf4cff3d174d9ad67d92a66dd54, type: 2}
+--- !u!114 &1390494287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7276607706438971688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"RestartButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Content","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 7276607705924947218}
+    - {fileID: 2513917080460226642}
+--- !u!114 &1390494292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7276607706438971688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b92a8c818674b2491968ef2e5384f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: fc7950d3e5e0442718e65aa88241952c, type: 2}
 --- !u!1 &7276607706500609807
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134540624747100893, guid: 1b79d70208c64f94fb5408834b08ae5e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48
+      value: -149
       objectReference: {fileID: 0}
     - target: {fileID: 3134540624747100893, guid: 1b79d70208c64f94fb5408834b08ae5e, type: 3}
       propertyPath: m_LocalRotation.x
