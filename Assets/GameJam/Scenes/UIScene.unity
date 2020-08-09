@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4497722564857665632, guid: 5e424b42ab191fb4f82c02d04c76b9fa, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: StartDialog
       objectReference: {fileID: 0}
     - target: {fileID: 4497722564857665636, guid: 5e424b42ab191fb4f82c02d04c76b9fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -570,7 +570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4497722565385023454, guid: 5e424b42ab191fb4f82c02d04c76b9fa, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4497722565385023454, guid: 5e424b42ab191fb4f82c02d04c76b9fa, type: 3}
       propertyPath: m_SceneBindings.Array.data[5].key
