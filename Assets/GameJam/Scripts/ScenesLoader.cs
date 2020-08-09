@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class ScenesLoader : MonoBehaviour
 {
     void Awake() {
-        SceneManager.LoadScene(sceneBuildIndex: 1, LoadSceneMode.Additive);
+        if (SceneManager.sceneCount < 2) {
+            SceneManager.LoadScene(sceneBuildIndex: 1, LoadSceneMode.Additive);    
+        }
     }
 }
