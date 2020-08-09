@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using HalfBlind.Attributes;
 using HalfBlind.ScriptableVariables;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ using UnityEngine;
 public class GameController : ScriptableObject {
     [SerializeField] private GameCharacterData[] Characters;
     [SerializeField] private ScriptableGameEvent OnGameWin;
+    [StringButton(nameof(StartGame), 0)] public string button;
     private List<GameCharacterData> _result;
 
     public void StartGame() {

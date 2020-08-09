@@ -54,7 +54,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2165824849579281572}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 3679897315755917166}
   - component: {fileID: 3679897315755917167}
   - component: {fileID: 3679897315755917160}
+  - component: {fileID: 8226360030936704777}
   m_Layer: 5
   m_Name: PreviewItem2
   m_TagString: Untagged
@@ -435,6 +436,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8226360030936704777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679897315755917162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74496ab1f23a0496380ba351b23519e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 86ee9576a2f404716aa2f9922483cb28, type: 3}
+  _button: {fileID: 3679897315755917160}
+  volume: 1
+  _source: {fileID: 0}
 --- !u!1 &3679897316013454078
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +464,7 @@ GameObject:
   - component: {fileID: 3679897316013454050}
   - component: {fileID: 3679897316013454051}
   - component: {fileID: 3679897316013454076}
+  - component: {fileID: 6018112414567768368}
   m_Layer: 5
   m_Name: PreviewItem1
   m_TagString: Untagged
@@ -566,6 +584,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6018112414567768368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679897316013454078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74496ab1f23a0496380ba351b23519e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 86ee9576a2f404716aa2f9922483cb28, type: 3}
+  _button: {fileID: 3679897316013454076}
+  volume: 1
+  _source: {fileID: 0}
 --- !u!1 &3679897316154814811
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +612,7 @@ GameObject:
   - component: {fileID: 3679897316154814815}
   - component: {fileID: 3679897316154814808}
   - component: {fileID: 3679897316154814809}
+  - component: {fileID: 1769015141263399013}
   m_Layer: 5
   m_Name: PreviewItem3
   m_TagString: Untagged
@@ -697,6 +732,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1769015141263399013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679897316154814811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74496ab1f23a0496380ba351b23519e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 86ee9576a2f404716aa2f9922483cb28, type: 3}
+  _button: {fileID: 3679897316154814809}
+  volume: 1
+  _source: {fileID: 0}
 --- !u!1 &3679897316214004480
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +760,7 @@ GameObject:
   - component: {fileID: 3679897316214004484}
   - component: {fileID: 3679897316214004485}
   - component: {fileID: 3679897316214004486}
+  - component: {fileID: 9051416093966626145}
   m_Layer: 5
   m_Name: Item3
   m_TagString: Untagged
@@ -757,7 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -853,6 +905,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &9051416093966626145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679897316214004480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74496ab1f23a0496380ba351b23519e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 86ee9576a2f404716aa2f9922483cb28, type: 3}
+  _button: {fileID: 3679897316214004486}
+  volume: 1
+  _source: {fileID: 0}
 --- !u!1 &3679897316353565219
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +933,7 @@ GameObject:
   - component: {fileID: 3679897316353565223}
   - component: {fileID: 3679897316353565216}
   - component: {fileID: 3679897316353565217}
+  - component: {fileID: 7956060516874969468}
   m_Layer: 5
   m_Name: Item2
   m_TagString: Untagged
@@ -913,7 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1009,6 +1078,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7956060516874969468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679897316353565219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74496ab1f23a0496380ba351b23519e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 86ee9576a2f404716aa2f9922483cb28, type: 3}
+  _button: {fileID: 3679897316353565217}
+  volume: 1
+  _source: {fileID: 0}
 --- !u!1 &3679897317019188235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1221,7 @@ GameObject:
   - component: {fileID: 3679897317063513749}
   - component: {fileID: 3679897317063513750}
   - component: {fileID: 3679897317063513751}
+  - component: {fileID: 1618953571964723742}
   m_Layer: 5
   m_Name: Item1
   m_TagString: Untagged
@@ -1184,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1280,6 +1366,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1618953571964723742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679897317063513745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74496ab1f23a0496380ba351b23519e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 86ee9576a2f404716aa2f9922483cb28, type: 3}
+  _button: {fileID: 3679897317063513751}
+  volume: 1
+  _source: {fileID: 0}
 --- !u!1 &3679897317138827583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,7 +1574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.91979986, b: 0.7216981, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1564,7 +1666,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6934878743558223310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -1660,7 +1762,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8044767772913054458}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
