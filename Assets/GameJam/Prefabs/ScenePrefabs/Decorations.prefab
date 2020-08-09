@@ -105,6 +105,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Forest_WprldDecoration
       objectReference: {fileID: 0}
+    - target: {fileID: 183800697421477044, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: ShapeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 183800697421477044, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: SubModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183800697421477044, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].emitter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 183800697421477044, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].properties
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183800697421477044, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].emitProbability
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 183800697421477044, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: SizeModule.curve.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035586617194408369, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae58cfd1829250740a2f987c6396d849, type: 2}
+    - target: {fileID: 4035586617194408369, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: m_MaxParticleSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5912948389795209243, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.89
+      objectReference: {fileID: 0}
     - target: {fileID: 7547048124723473775, guid: 29101218a1c15c344b9180ecce94a653, type: 3}
       propertyPath: m_LocalPosition.x
       value: -130.64359
