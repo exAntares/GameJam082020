@@ -21,5 +21,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ffa47daa220ca224493b989c5715cef2, type: 2}
   - {fileID: 11400000, guid: 499deafc96fcc402d822efee8d31f529, type: 2}
   - {fileID: 11400000, guid: 8f66cfb31f55aa947897fe16b04d3a80, type: 2}
+  - {fileID: 11400000, guid: 486f7655ddcf7424cb76db842fff69f2, type: 2}
   OnGameWin: {fileID: 11400000, guid: fc7950d3e5e0442718e65aa88241952c, type: 2}
   button: 
