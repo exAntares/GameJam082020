@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90d443a2137645c6af4fb9eb7a0964e, type: 3}
+  m_Name: GhostRedData
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: a44b1c2617ffb1943a06acbad87a5a75, type: 3}
+  OnSuccess: {fileID: 11400000, guid: 4b3587cb078c3574eb2c9f9376f8ae05, type: 2}
+  OnFail: {fileID: 11400000, guid: a4924208821a6a1499a53072980cace8, type: 2}

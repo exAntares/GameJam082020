@@ -101,8 +101,8 @@ MonoBehaviour:
   - {fileID: 5452053476246865033}
   - {fileID: 6318873929711372279}
   m_Bounds:
-    m_Center: {x: -0.018069074, y: -0.008946672, z: 0}
-    m_Extent: {x: 0.1754331, y: 0.2234396, z: 0}
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.14998993, y: 0.23500001, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &2567185461164278065
@@ -115,8 +115,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3170808198104759758}
   - component: {fileID: 1993839291087464596}
+  - component: {fileID: 8718218973653537993}
+  - component: {fileID: 4159284581106758015}
+  - component: {fileID: 4206374632339854888}
+  - component: {fileID: 7235728344638817836}
   m_Layer: 0
-  m_Name: CharacterMeatBoy
+  m_Name: CharacterMeatBoyBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,6 +168,65 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &8718218973653537993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567185461164278065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.89, y: 1.77, z: 1}
+  m_Center: {x: 0, y: 0.89, z: 0}
+--- !u!114 &4159284581106758015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567185461164278065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4524009feace5432185c61b8bead7a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameController: {fileID: 11400000, guid: c66b611b5c0474e81946cdc5b2319a20, type: 2}
+  MyData: {fileID: 11400000, guid: 4db46175d9c53f64ba92fee9e864caa1, type: 2}
+--- !u!114 &4206374632339854888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567185461164278065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Animator","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1993839291087464596}
+--- !u!114 &7235728344638817836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2567185461164278065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e8d28272fea8944da8ce408edb68d1a9, type: 2}
 --- !u!1 &2579565151724885773
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,8 +388,8 @@ MonoBehaviour:
   - {fileID: 7768488863841238035}
   - {fileID: 4234117108825957962}
   m_Bounds:
-    m_Center: {x: 0.12187484, y: 0.012349397, z: 0.004661741}
-    m_Extent: {x: 0.25698057, y: 0.3160594, z: 0.0075221206}
+    m_Center: {x: -0.0004196167, y: 0.000844717, z: 0}
+    m_Extent: {x: 0.15951967, y: 0.35415506, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3819486081525668254
@@ -459,8 +522,8 @@ MonoBehaviour:
   - {fileID: 8340840447609476457}
   - {fileID: 6318873929711372279}
   m_Bounds:
-    m_Center: {x: -0.02768305, y: 0.017235726, z: 0.00047849969}
-    m_Extent: {x: 0.20151442, y: 0.22914615, z: 0.0010036709}
+    m_Center: {x: 0.000005096197, y: -0.00000010430813, z: 0}
+    m_Extent: {x: 0.14999503, y: 0.23499998, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4716425635851325604
@@ -595,8 +658,8 @@ MonoBehaviour:
   - {fileID: 6318873929711372279}
   - {fileID: 4328435042928519955}
   m_Bounds:
-    m_Center: {x: -0.00094002485, y: -0.05599308, z: -0.00023075857}
-    m_Extent: {x: 0.67433274, y: 0.60461104, z: 0.00023075857}
+    m_Center: {x: -0.00068998337, y: -0.00038003922, z: 0}
+    m_Extent: {x: 0.6743109, y: 0.66919, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6037400599648016846
@@ -803,8 +866,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 9187864827151379958}
   m_Bounds:
-    m_Center: {x: -0.0002565384, y: -0.074292645, z: 0}
-    m_Extent: {x: 0.3999994, y: 0.0958222, z: 0}
+    m_Center: {x: 0, y: -0.00018998235, z: 0}
+    m_Extent: {x: 0.4, y: 0.106040046, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &6301724584885712516
@@ -907,8 +970,8 @@ MonoBehaviour:
   - {fileID: 466094286695409218}
   - {fileID: 7258393013354258261}
   m_Bounds:
-    m_Center: {x: -0.025357783, y: -0.030666143, z: 0.00246788}
-    m_Extent: {x: 0.1607976, y: 0.32470924, z: 0.0039697154}
+    m_Center: {x: -0.00020948052, y: -0.000000029802322, z: 0}
+    m_Extent: {x: 0.16475043, y: 0.35500017, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7106779718170028121

@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Characters:
   - {fileID: 11400000, guid: 01aa8e309913343eb80774c7454fdf5e, type: 2}
-  - {fileID: 11400000, guid: 33968f716a56e498d9724483d8f27ead, type: 2}
-  - {fileID: 11400000, guid: c1364bb763f904786909ab6becf44755, type: 2}
+  - {fileID: 11400000, guid: 4db46175d9c53f64ba92fee9e864caa1, type: 2}
+  - {fileID: 11400000, guid: 9d90e74083ce29d4e97aa07ef1408700, type: 2}
+  - {fileID: 11400000, guid: f4fdf54a6f01e754cab51b2ca16f2f09, type: 2}
+  - {fileID: 11400000, guid: 209e345049b9ffc41904f2f0fceba566, type: 2}
+  - {fileID: 11400000, guid: ffa47daa220ca224493b989c5715cef2, type: 2}
+  - {fileID: 11400000, guid: ffa47daa220ca224493b989c5715cef2, type: 2}
   - {fileID: 11400000, guid: 499deafc96fcc402d822efee8d31f529, type: 2}
-  - {fileID: 11400000, guid: ef1ea4f59445340af89a7d3899f477cb, type: 2}
-  - {fileID: 11400000, guid: 0fe192a42974341b7a18f53a3658b0c5, type: 2}
+  - {fileID: 11400000, guid: 8f66cfb31f55aa947897fe16b04d3a80, type: 2}
   OnGameWin: {fileID: 11400000, guid: fc7950d3e5e0442718e65aa88241952c, type: 2}

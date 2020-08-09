@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b90d443a2137645c6af4fb9eb7a0964e, type: 3}
-  m_Name: LostMaleAdventurerData
+  m_Name: BertiAdventurerData
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: 3462c6e027a8840b996b123769dfcba2, type: 3}
+  Icon: {fileID: 21300000, guid: d871b9a8783af5c49be3e21816735efb, type: 3}
   OnSuccess: {fileID: 11400000, guid: 246a72ee435a2423bb0323a0a62048a9, type: 2}
   OnFail: {fileID: 11400000, guid: 715725e03097740ceb3862153c1f5363, type: 2}
