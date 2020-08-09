@@ -44,9 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb125e60e98af448a94a4c8955463f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _camera: {fileID: 7174907421400587313}
   _speed: 3
-  _xMinMax: {x: -43, y: 125}
-  _zMinMax: {x: -70, y: 93}
+  _sensitivity: 1
+  _zoomOutConstrain:
+    xMinMax: {x: -43, y: 125}
+    zMinMax: {x: -70, y: 93}
+  _zoomInConstrain:
+    xMinMax: {x: -67, y: 150}
+    zMinMax: {x: -90, y: 120}
+  _minFov: 5
+  _maxFov: 21
 --- !u!1 &7174907421400587319
 GameObject:
   m_ObjectHideFlags: 0
