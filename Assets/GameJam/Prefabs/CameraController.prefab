@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 7174907421400587313}
   _speed: 3
-  _sensitivity: 1
+  _sensitivity: 30
   _zoomOutConstrain:
     xMinMax: {x: -43, y: 125}
     zMinMax: {x: -70, y: 93}
