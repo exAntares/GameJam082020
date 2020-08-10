@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90d443a2137645c6af4fb9eb7a0964e, type: 3}
+  m_Name: ChestData
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: b6bb48c205b166f4ea1c5a6329514833, type: 3}
+  OnSuccess: {fileID: 11400000, guid: f6d5a75c5f79bb34790e07a2f9252648, type: 2}
+  OnFail: {fileID: 11400000, guid: 89dee3f54dae60645be5a8df9750b5fc, type: 2}
